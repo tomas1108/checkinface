@@ -3,7 +3,7 @@ import { initializeApp } from "firebase/app";
 import { getDatabase } from "firebase/database";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA48QQ1FjQK4HbbEk5tzHw6azFOYU8Rjt8",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "checkinface-56754.firebaseapp.com",
   databaseURL: "https://checkinface-56754-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "checkinface-56754",
